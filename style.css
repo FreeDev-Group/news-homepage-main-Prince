@@ -24,11 +24,12 @@
 }
 
 body {
-  margin: 0;
   padding: 0;
   font-family: Inter, sans-serif;
   background-color: var(--off-white);
   color: var(--text-color);
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* Utility classes */
@@ -51,7 +52,7 @@ body {
 .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: var(--soft-orange);
+  background-color: var(--soft-red);
   color: var(--off-white);
   border: none;
   border-radius: 4px;
@@ -61,9 +62,47 @@ body {
 }
 
 /* Nav bar */
+.header {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.action {
+  display: flex;
+  gap: 1rem;
+  color: var(--text-color);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.action:hover {
+  color: var(--soft-red);
+}
+
+.nav {
+  display: flex;
+  flex: row;
+  gap: 1rem;
+}
 
 /* Grid layout */
 
 /* Card tickets */
 
 /* Drawer */
+
+/* Footer */
+.attribution {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: var(--grayish-blue);
+}
