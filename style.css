@@ -9,7 +9,7 @@
   --dark-grayish-blue: hsl(236, 13%, 42%);
   --very-dark-blue: hsl(240, 100%, 5%);
 
-  --text-color: #333333;
+  --text-color: #757575;
 }
 
 @font-face {
@@ -27,25 +27,71 @@ body {
   padding: 0;
   font-family: Inter, sans-serif;
   background-color: var(--off-white);
-  color: var(--text-color);
   max-width: 900px;
   margin: 0 auto;
 }
 
 /* Utility classes */
+.divider {
+  border: none;
+  border-top: 1px solid var(--text-color);
+  margin: 2rem 0;
+}
+
+.black-bg {
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
+}
+
+.orange-color {
+  color: var(--soft-orange);
+}
+
+.soft-red-color {
+  color: var(--soft-red);
+}
+
+.white-color {
+  color: var(--off-white);
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
 .h1 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .h3 {
   font-size: 1rem;
   font-weight: 500;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+.padding-top {
+  padding-top: 2rem;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Button */
@@ -94,6 +140,25 @@ body {
 }
 
 /* Grid layout */
+.row {
+  display: flex;
+  flex: row;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+}
+
+.col-1 {
+  flex: 1 1 100%;
+}
+.col-2 {
+  flex: 1 1 48%;
+}
+.col-3 {
+  flex: 1 1 30%;
+}
+.col-4 {
+  flex: 1 1 22%;
+}
 
 /* Card tickets */
 
