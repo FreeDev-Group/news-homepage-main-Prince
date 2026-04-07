@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [news-homepage-main-Prince](https://github.com/FreeDev-Group/news-homepage-main-Prince)
-- Solution URL: [Add your Frontend Mentor solution URL here](https://www.frontendmentor.io/solutions)
-- Live Site URL: [Add your deployed live URL here](https://example.com)
+- Repository URL: [news-homepage](https://github.com/FreeDev-Group/news-homepage-main-Prince)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/news-homepage-gAFjPXvrRS)
+- Live Site URL: [Demo](https://freedev-group.github.io/news-homepage-main-Prince/)
 
 ## My process
 
@@ -97,5 +97,6 @@ I still validated behavior manually in the browser and adjusted styles based on 
 ## Author
 
 - Name: Prince
+- GitHub: [Prince](https://github.com/hacp0012)
 - GitHub: [FreeDev-Group](https://github.com/FreeDev-Group)
-- Frontend Mentor: [Add your Frontend Mentor profile link](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor: [Prince](https://www.frontendmentor.io/profile/hacp0012)
