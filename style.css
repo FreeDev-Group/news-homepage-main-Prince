@@ -114,6 +114,7 @@ a:hover {
   transition: background-color 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  color: var(--very-dark-blue);
 }
 
 .button:hover {
@@ -171,7 +172,13 @@ a:hover {
   cursor: pointer;
   padding: 0;
   line-height: 0;
-  z-index: 1001;
+  position: relative;
+  z-index: 10;
+}
+
+body.menu-open .menu-toggle {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menu-toggle img,
@@ -200,7 +207,7 @@ a:hover {
   transition:
     opacity 0.25s ease,
     visibility 0.25s ease;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .mobile-menu.active {

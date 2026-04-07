@@ -73,7 +73,13 @@
     <main class="main-content">
       <section class="featured-section">
         <div class="featured-image">
-          <img src="./assets/images/image-web-3-desktop.jpg" alt="Web 3.0" />
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="./assets/images/image-web-3-mobile.jpg"
+            />
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="Web 3.0" />
+          </picture>
         </div>
 
         <div class="featured-content">
@@ -84,7 +90,9 @@
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
             </p>
-            <a href="#" class="button">Read more</a>
+            <div>
+              <a href="#" class="button">Read more</a>
+            </div>
           </div>
         </div>
 
